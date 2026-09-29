@@ -129,6 +129,6 @@ $ns at 5.5 "finish"
 $ns run
 
 #ns lab3.tcl
-#awk -f lab3.awk cwnd1.tr > a1
-#awk -f lab3.awk cwnd2.tr > a2
-#xgraph a1 a2
+#grep cwnd_ cwnd1.tr | cut -d " " -f 1,12 > a1
+#grep cwnd_ cwnd2.tr | cut -d " " -f 1,12 > a2
+#xgraph -color red a1 -color blue a2
