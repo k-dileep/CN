@@ -82,7 +82,6 @@ class crc_gen {
                 System.out.println("No Error");
         }
 
-        System.out.println("THANK YOU. ....)");
     }
 
     static int[] divide(int divisor[], int rem[]) {
@@ -102,3 +101,37 @@ class crc_gen {
         return rem;
     }
 }
+
+
+
+// output 1
+
+// Enter number of data bits : 
+// 8
+// Enter data bits : 
+// 10010001
+// Dividend (after appending 0's) are : 100100010000000000000000
+
+// CRC code : 
+// 100100011001001110011000
+
+// Enter CRC code of 24 bits : 
+// 100100011001001110011000
+// No Error
+
+
+//output 2
+
+// Enter number of data bits : 
+// 8
+// Enter data bits : 
+// 10010001
+// Dividend (after appending 0's) are : 100100010000000000000000
+
+// CRC code : 
+// 100100011001001110011000
+
+// Enter CRC code of 24 bits : 
+// 100100011111111100000000
+// Error
+
