@@ -1,3 +1,6 @@
+//EX 4: Develop a program for error detecting code using CRC-CCITT (16- bits).
+
+
 import java.io.*;
 
 class crc_gen {

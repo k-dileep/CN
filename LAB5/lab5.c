@@ -1,19 +1,19 @@
+/*EX 5: Develop a program to implement a sliding window protocol in the data link layer.*/
+
 #include<stdio.h>
 int main()
 {
- int w,i,f,frames[50];
- printf("Enter window size: ");
+ int w,i,f,frames[100];
+ printf("Enter window size: "); 
  scanf("%d",&w);
  printf("\nEnter number of frames to transmit: ");
  scanf("%d",&f);
  printf("\nEnter %d frames: ",f);
  for(i=1;i<=f;i++)
  scanf("%d",&frames[i]);
- printf("\nWith sliding window protocol the frames will be sent in the following manner 
-(assuming no corruption of frames)\n\n");
+ printf("\nWith sliding window protocol the frames will be sent in the following manner (assuming no corruption of frames)\n\n");
 
- printf("After sending %d frames at each stage sender waits for acknowledgement sent by 
-the receiver\n\n",w);
+ printf("After sending %d frames at each stage sender waits for acknowledgement sent by the receiver\n\n",w);
  for(i=1;i<=f;i++)
  {
  if(i%w==0)

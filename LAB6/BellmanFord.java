@@ -1,3 +1,7 @@
+/*EX 6: Develop a program to find the shortest path between vertices using the Bellman-Ford Algorithm.*/
+
+
+
 import java.util.Scanner;
 
 public class BellmanFord {

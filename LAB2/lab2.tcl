@@ -1,5 +1,7 @@
 #lab2.tcl
 
+
+
 # Create Simulator
 set ns [new Simulator]
 
